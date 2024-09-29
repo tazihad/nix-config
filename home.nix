@@ -13,10 +13,6 @@
   # Enable unfree packages
   nixpkgs.config.allowUnfree = true;
 
-  # Set Zsh as the default shell
-  programs.zsh.enable = true;
-  programs.zsh.shell = pkgs.zsh;
-
   # Using mismatched versions nixos and home manager.
   home.enableNixpkgsReleaseCheck = false;
 
