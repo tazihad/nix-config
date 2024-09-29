@@ -20,11 +20,12 @@
 
     # cli
     pkgs.neofetch
+    pkgs.yt-dlp
 
     # gui
     pkgs.megasync
     pkgs.veracrypt
-
+    pkgs.google-chrome
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
