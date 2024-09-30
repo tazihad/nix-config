@@ -25,7 +25,7 @@
     megasync
     veracrypt
 
-    inputs.zen-browser.packages."${config.system}".default
+    zen-browser.packages."${config.system}".default
     ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
