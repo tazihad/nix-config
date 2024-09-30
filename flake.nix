@@ -23,11 +23,8 @@
         # the path to your home.nix.
         modules = [ ./home.nix ];
 
-        # Pass the inputs (including zen-browser) to home.nix
         extraSpecialArgs = {
-          inputs = {
-            inherit zen-browser;
-          };
+          zenBrowser = zen-browser.packages.${system};
         };
 
         # Optionally use extraSpecialArgs

@@ -25,7 +25,8 @@
     megasync
     veracrypt
 
-    inputs.zen-browser.packages."${config.system}".default
+    # Zen Browser
+    zenBrowser.default
 
     ];
 
