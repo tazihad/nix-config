@@ -16,14 +16,14 @@
   # Using mismatched versions nixos and home manager.
   home.enableNixpkgsReleaseCheck = false;
 
-  home.packages = [
+  home.packages = with pkgs; [
 
     # cli
-    pkgs.neofetch
+    neofetch
 
     # gui
-    pkgs.megasync
-    pkgs.veracrypt
+    megasync
+    veracrypt
     ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
