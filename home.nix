@@ -19,11 +19,12 @@
   home.packages = with pkgs; [
 
     # cli
-    neofetch
-
+    chezmoi
+    bat
+    
     # gui
-    megasync
     veracrypt
+    firefox
 
     # Zen Browser
     zenBrowser.default
